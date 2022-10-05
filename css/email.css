@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;900&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0}
+
+   
+
+.contain{
+    background-color: #56b381;
+    position: fixed;
+    overflow: hidden;
+    height: 100px;
+    top: 0;
+    width: 100%;
+}
+
+.navigation ul{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    
+}
+
+.navigation li{
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+
+.navigation li :hover{
+transform: scale(1.1);
+transition: all 0.2s;
+}
+
+article .say{
+    margin-top: 200px;
+    margin-left: 200px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+font-weight: 700;
+color: #fff;
+}
+
+article .will{
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-weight: 100;
+letter-spacing: -0.2px;
+word-spacing: 2px;
+line-height: 25px;
+
+}
+
+article .mail .white_cont{
+    float: right;
+    background-color: #fff;
+    width: 340px;
+    height: 220px;
+    margin-top: -410px;
+    margin-right: 280px;
+    border-radius: 10px;
+    box-shadow: 0.1rem 0.1rem 0.5rem rgba(15, 15, 15, 0.771);
+}
+
+article .text{
+    margin-left: 200px;
+    margin-top: 7px;
+}
+.typ::placeholder{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 100;
+padding-bottom: 30px;
+}
+
+#emaill::placeholder , #sub::placeholder, #rea::placeholder{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 100;
+}
+
+#tex , #emaill , #sub , #rea{
+    margin-top: 18px;
+    border: none;
+        border-bottom: 1px solid silver;
+        width: 400px;
+        height: 70px;
+        background-color: #56b381;
+}
+
+
+#tex:focus , #emaill:focus , #sub:focus , #rea:focus {
+    outline: none;
+    color: #fff;
+}
+
+.email , .subject {
+    margin-left: 200px;
+    margin-top: -12px;
+}
+
+.area{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+#rea{
+    height: 90px;
+}
+
+.meat{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 30px;
+    word-spacing: 2px;
+}
+
+.a_mail , .phone{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #168BFF;
+    margin-left: 30px;
+
+}
+
+.ba-w , .cal{
+    margin-top:  10px;
+}
+
+.calt{
+    padding-top: 50px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+    word-spacing: 2px;
+}
+
+.sub-t{
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 135px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #168BFF;
+    padding-right: 25px;
+     font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
+}
+
+.fraction {
+    color: #fff;
+     font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;  
+    padding-right: 15px;
+    
+    
+}
+
+i{
+    color: white;
+    display: flex;
+  
+}
+
+
+/* .hov :hover{
+    transform: scale(1.1);
+transition: all 0.2s;
+} */
+
+
+.svg{
+    margin-top: -100px;
+    margin-left: 300px;
+
+} 
+
+/* path:hover {
+    transform: scale(1.1);
+    transition: all 0.2s; 
+} */
+
+.foot-ul{
+    /* float: right; */
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.foot-ul li{
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.foot-ul li a {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   text-decoration: none;
+}
